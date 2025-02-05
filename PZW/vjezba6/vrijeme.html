@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vrijeme</title>
+</head>
+<body>
+    
+    <script>
+
+        const d = new Date();
+
+        const vrijeme =  d.getHours();
+
+        alert("sada je " + vrijeme + " sati")
+
+        if (vrijeme <= 10){
+            alert ("dobro jutro!");
+        } else if (vrijeme <= 11 && vrijeme <= 18) {
+            alert ("dobar dan!");
+        }else if (vrijeme >= 19){
+            alert ("dobra večer!");
+        }
+
+        /* sto su varijable, primjerr napisi varijablu koja sprema neko ime npr 
+        tipovi podataka nabroji (koje  mozemo spremiti u varijablu)
+        js DOMMatrixget element by Id
+        zadatci sa else if i sl ko na clasromu */
+
+
+    </script>
+
+</body>
+</html>
